@@ -1,0 +1,126 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Noto Sans Arabic', sans-serif;
+}
+
+section{
+  background-image: url(images/pexels-yasir-gürbüz-11565073.jpg);
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.menu{
+  color: black;
+  font-size: 30px;  
+  cursor: pointer;
+  z-index: 3;
+}
+
+#nav{
+  background-color: black;
+  padding-top: 130px;
+  width: 0;               /* change with javascript*/
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transition: 0.4s ease;
+  overflow: hidden;
+}
+
+#nav li{
+  padding: 20px;
+  font-size: 18px;
+  color: white;
+  list-style: none;
+  transition: 0.2s ease;
+}
+
+#nav a{
+  text-decoration: none;
+}
+
+#nav li:hover{
+  background-color: gold;
+}
+
+.jerusalem{
+  color: gold;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+section{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  margin-bottom: 120px;
+}
+
+main img{
+  width: 500px;
+  border-radius: 5px;
+}
+
+main p{
+  width: 1000px;
+  font-size: 18px;
+  color: #777;
+  line-height: 28px;
+  padding-top: 60px;
+  text-align: center;
+  margin: auto;
+}
+
+.history{
+  font-size: 40px;
+  color: black;
+}
+
+main{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+figure img{
+  width: 400px;
+  margin-top: 30px;
+  text-align: center;
+  margin-inline-start: auto;
+  margin-bottom: 30px;
+}
+figure{
+  margin: auto;
+  text-align: center;
+}
+
+.hadeeth{
+  width: 700px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #777;
+  margin: auto;
+}
+
+.benefits{
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 767px){
+  main img{
+    width: 400px;
+  }
+    main p{
+      width: 400px;
+    }
+
+    .hadeeth{
+      width: 400px;
+    }
+}

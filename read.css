@@ -1,0 +1,49 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Noto Sans Arabic', sans-serif;
+}
+
+
+section img{
+  width: 500px;
+}
+
+section{
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.name{
+  font-size: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.details{
+  width: 700px;
+  text-align: center;
+  margin: auto;
+  font-size: 19px;
+  color: #777;
+  line-height: 28px;
+}
+
+figure{
+  padding-top: 20px;
+}
+
+@media only screen and (max-width: 767px){
+    .details{
+      width: 400px;
+    }
+
+    
+    section img{
+      width: 400px;
+    }
+
+}
